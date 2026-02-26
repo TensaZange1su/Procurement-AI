@@ -1,0 +1,23 @@
+# --- Web Framework ---
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# --- Database ---
+psycopg2-binary==2.9.9
+clickhouse-driver==0.2.6
+
+# --- HTTP requests ---
+requests==2.31.0
+
+# --- Data processing ---
+numpy==1.26.4
+pandas==2.2.2
+
+# --- Environment variables ---
+python-dotenv==1.0.1
+
+# --- Validation / typing ---
+pydantic==2.6.4
+
+# --- Optional (логирование / удобство) ---
+loguru==0.7.2
